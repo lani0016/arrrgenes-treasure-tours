@@ -11,11 +11,11 @@
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
 </head>
 <body>
- <ul class="skip-links">
-   <li><a href="#main">Jump to main content</a></li>
-   <li><a href="#nav">Jump to navigation</a></li>
- </ul>
-  <header class="banner">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+  <header role="banner">
     <div class="masthead grid grid-middle gutter">
       <h1 class="logo push-0 unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2">
         <i class="icon i-32 push-r-1-4"><img src="images/logo.svg" alt="" aria-details="anchor-logo"></i>
@@ -33,35 +33,39 @@
     </div>
   </header>
 
-<main role="main" id="main" tabindex="0">
-  <div>
-    <div class="banner embed embed-16by9">
-      <img class="embed-item" src="images/banner.jpg" alt="" aria-details="oldfashioned-map">
-      <div class="banner-content pin-c w-1 max-length gutter text-center">
-        <h2 class="push-1-2">Ahoy, me Hearties!</h2>
-        <p>Batten down the hatches and sail me corsair to plentiful doubloons.</p>
-        <a class="btn btn-ghost btn-banner bold" href="#">Book a tour</a>
-      </div>
-    </div>
-
-    <div class="island">
-      <div class="card embed embed-golden">
-        <div class="card-content pin-c w-1 max-length gutter text-center">
-          <i class="icon i-96 push-1-2"><img src="images/ship.svg" alt="" aria-details="ship-icon"></i>
-          <h2 class="push-1-2">Heave Ho!</h2>
-          <p>Weigh anchor and hoist the mizzen, ya old salt, aboard shipshape <i>Arrrgonaut</i>.</p>
-          <a class="btn btn-light bold" href="#">See the specs</a>
+  <main role="main" id="main" tabindex="0">
+    <div>
+      <div class="banner embed embed-16by9">
+        <img class="embed-item" src="images/banner.jpg" alt="" aria-details="oldfashioned-map">
+        <div class="banner-content pin-c w-1 max-length gutter text-center">
+          <h2 class="push-1-2">Ahoy, me Hearties!</h2>
+          <p>Batten down the hatches and sail me corsair to plentiful doubloons.</p>
+          <a class="btn btn-ghost btn-banner bold" href="#">Book a tour</a>
         </div>
       </div>
-    </div>
-  </div>
-</main>
+      <section>
+        <div class="island">
+          <div class="card embed embed-golden">
+            <div class="card-content pin-c w-1 max-length gutter text-center">
+              <i class="icon i-96 push-1-2"><img src="images/ship.svg" alt="" aria-details="ship-icon"></i>
+              <h2 class="push-1-2">Heave Ho!</h2>
+              <article>
+                <p>Weigh anchor and hoist the mizzen, ya old salt, aboard shipshape <i>Arrrgonaut</i>.</p>
+              </article>
+              <a class="btn btn-light bold" href="#">See the specs</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<footer>
-  <div class="footer micro text-center island-1-2">
-    <p class="push-0">© Arrrgene’s Treasure Tours</p>
-  </div>
-</footer>
+    </div>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="footer micro text-center island-1-2">
+      <p class="push-0">© Arrrgene’s Treasure Tours</p>
+    </div>
+  </footer>
 
 </body>
 </html>

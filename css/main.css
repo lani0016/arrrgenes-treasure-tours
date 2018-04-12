@@ -36,6 +36,10 @@ html {
   border-bottom-color: #fff;
 }
 
+a:focus {
+  outline: 3px solid #fff;
+}
+
 .banner {
   min-height: 16em;
   color: #fff;
