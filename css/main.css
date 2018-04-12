@@ -9,9 +9,11 @@ html {
   color: #fff;
 }
 
-/*h2,p {
+/*
+h2,p {
   color: #000;
-}*/
+}
+*/
 
 .logo {
   text-align: center;
@@ -85,9 +87,11 @@ a:focus {
   color: #fff;
 }
 
-/* .btn-ghost {
+/*
+.btn-ghost {
   color: #000;
-}*/
+}
+*/
 
 @media only screen and (min-width: 38em) {
 
