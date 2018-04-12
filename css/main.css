@@ -9,15 +9,10 @@ html {
   color: #fff;
 }
 
-
-.blk {
-  color: #000;
+.ban {
+  color: #fff;
+  outline: #fff;
 }
-/*
-h2,p {
-  color: #000;
-}
-*/
 
 .logo {
   text-align: center;
@@ -53,6 +48,7 @@ a:focus {
 .banner {
   min-height: 16em;
   color: #fff;
+  background-color: #000;
 }
 
 .card {
